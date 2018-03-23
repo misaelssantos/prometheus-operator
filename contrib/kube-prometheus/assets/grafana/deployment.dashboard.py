@@ -289,6 +289,7 @@ dashboard = Dashboard(
                             'available{deployment=\"$deployment_name\",'
                             'namespace=\"$deployment_namespace\"}) without '
                             '(instance, pod)',
+                            'instant': true,
                         },
                     ],
                     rangeMaps=[
